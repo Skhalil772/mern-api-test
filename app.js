@@ -32,7 +32,7 @@ app.set("trust proxy", 1);
 app.use(
   cors({
     origin: [
-      "https://api-test-app-xkpf-skhalil772.vercel.app/",
+      "https://api-test-app-xkpf-skhalil772.vercel.app",
       "http://localhost:3000",
     ],
     credentials: true,
